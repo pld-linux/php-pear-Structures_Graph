@@ -1,5 +1,3 @@
-# ToDo:
-# - pl description
 %include	/usr/lib/rpm/macros.php
 %define         _class          Structures
 %define         _subclass       Graph
@@ -7,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Graph datastructure manipulation library
-Summary(pl):	%{_pearname} - Biblioteka do obróki grafów (struktur danych)
+Summary(pl):	%{_pearname} - biblioteka do obróbki struktur danych grafów
 Name:		php-pear-%{_pearname}
 Version:	1.0
 Release:	1
@@ -30,11 +28,14 @@ graph topology.
 
 This class has in PEAR status: %{_status}.
 
-#%description -l pl
-#Za pomoc± Structures_Graph mo¿liwe jest tworzenie i manipulacj± struktur
-#danych grafów.
-#
-#Ta klasa ma w PEAR status: %{_status}.
+%description -l pl
+Za pomoc± Structures_Graph mo¿liwe jest tworzenie i manipulacja
+strukturami danych grafów. Pakiet pozwala tworzyæ grafy skierowane i
+nieskierowane z danymi i metadanymi zapisanymi w wierzcho³kach.
+Biblioteka dostarcza funkcje do przechodzenia grafów, a tak¿e
+wyci±gania charakterystyki z topologii grafu.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
