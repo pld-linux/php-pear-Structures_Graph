@@ -1,10 +1,10 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Structures
-%define         _subclass       Graph
+%define		_class		Structures
+%define		_subclass	Graph
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - Graph datastructure manipulation library
+Summary:	%{_pearname} - graph datastructure manipulation library
 Summary(pl):	%{_pearname} - biblioteka do obróbki struktur danych grafów
 Name:		php-pear-%{_pearname}
 Version:	1.0
