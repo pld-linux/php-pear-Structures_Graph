@@ -26,7 +26,7 @@ with data and metadata stored in nodes. The library provides functions
 for graph traversing as well as for characteristic extraction from the
 graph topology.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Za pomoc± Structures_Graph mo¿liwe jest tworzenie i manipulacja
