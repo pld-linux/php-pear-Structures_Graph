@@ -14,6 +14,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	97baf9bf892a6a54213d193767f97a09
 URL:		http://pear.php.net/package/Structures_Graph/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear >= 4:1.0-9.5
 Requires:	php-pear-PEAR-code >= 1:1.2
