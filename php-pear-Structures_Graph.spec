@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - graph datastructure manipulation library
-Summary(pl):	%{_pearname} - biblioteka do obróbki struktur danych grafów
+Summary(pl.UTF-8):   %{_pearname} - biblioteka do obrÃ³bki struktur danych grafÃ³w
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
 Release:	5
@@ -31,12 +31,12 @@ graph topology.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Za pomoc± Structures_Graph mo¿liwe jest tworzenie i manipulacja
-strukturami danych grafów. Pakiet pozwala tworzyæ grafy skierowane i
-nieskierowane z danymi i metadanymi zapisanymi w wierzcho³kach.
-Biblioteka dostarcza funkcje do przechodzenia grafów, a tak¿e
-wyci±gania charakterystyki z topologii grafu.
+%description -l pl.UTF-8
+Za pomocÄ… Structures_Graph moÅ¼liwe jest tworzenie i manipulacja
+strukturami danych grafÃ³w. Pakiet pozwala tworzyÄ‡ grafy skierowane i
+nieskierowane z danymi i metadanymi zapisanymi w wierzchoÅ‚kach.
+Biblioteka dostarcza funkcje do przechodzenia grafÃ³w, a takÅ¼e
+wyciÄ…gania charakterystyki z topologii grafu.
 
 Ta klasa ma w PEAR status: %{_status}.
 
