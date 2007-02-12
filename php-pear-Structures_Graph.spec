@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - graph datastructure manipulation library
-Summary(pl.UTF-8):   %{_pearname} - biblioteka do obróbki struktur danych grafów
+Summary(pl.UTF-8):	%{_pearname} - biblioteka do obróbki struktur danych grafów
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
 Release:	5
