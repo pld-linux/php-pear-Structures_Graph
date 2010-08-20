@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - graph datastructure manipulation library
 Summary(pl.UTF-8):	%{_pearname} - biblioteka do obróbki struktur danych grafów
 Name:		php-pear-%{_pearname}
-Version:	1.0.2
-Release:	3
+Version:	1.0.3
+Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	2664e2d024048f982e12fad4d1bfbb87
+# Source0-md5:	d2d8db74818be5cb0af7def3fc285bfc
 URL:		http://pear.php.net/package/Structures_Graph/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -45,8 +45,8 @@ Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
-AutoReq:	no
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
@@ -56,6 +56,8 @@ Testy dla PEAR::%{_pearname}.
 
 %prep
 %pear_package_setup
+
+rm .%{php_pear_dir}/data/Structures_Graph/LICENSE
 
 %install
 rm -rf $RPM_BUILD_ROOT
