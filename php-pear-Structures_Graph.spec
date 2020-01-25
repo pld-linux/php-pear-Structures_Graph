@@ -4,7 +4,6 @@
 
 %define		status		stable
 %define		pearname	Structures_Graph
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - graph datastructure manipulation library
 Summary(pl.UTF-8):	%{pearname} - biblioteka do obróbki struktur danych grafów
 Name:		php-pear-%{pearname}
